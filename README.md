@@ -1,6 +1,6 @@
-# নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (এনআইএনএস)
+# ডা: মো. জহুরুল হক নার্সিং কলেজ
 
-A static React frontend for নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (এনআইএনএস) website, built with Vite. This is a public-facing website showcasing the institute's information, courses, faculty, and more. All content is static and hardcoded, with no backend integration.
+A static React frontend for ডা: মো. জহুরুল হক নার্সিং কলেজ website, built with Vite. This is a public-facing website showcasing the institute's information, courses, faculty, and more. All content is static and hardcoded, with no backend integration.
 
 ## Features
 
@@ -81,7 +81,7 @@ public/
 
    ```bash
    git clone <repository-url>
-   cd ninsbd
+   cd jhncbd
    ```
 
 2. Install dependencies:
