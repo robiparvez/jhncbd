@@ -1,4 +1,3 @@
-import React from 'react';
 import SEO from 'src/SEO/SEO';
 import { pageSEO } from 'src/SEO/seoConfig';
 import { organizationSchema, websiteSchema } from 'src/SEO/schemas';

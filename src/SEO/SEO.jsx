@@ -5,16 +5,16 @@ import { Helmet } from '@vuer-ai/react-helmet-async';
  * @param {Object} props - SEO configuration props
  */
 const SEO = ({
-    title = 'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (এনআইএনএস) - Best Nursing Institute in Rangpur, Bangladesh',
-    description = 'এনআইএনএস - Northern Institute of Nursing Science in Rangpur. Offering 3-year Diploma in Nursing Science and Midwifery. BNMC approved nursing education with experienced faculty and modern facilities.',
-    keywords = 'এনআইএনএস, Northern Nursing Institute, Nursing colleges in Bangladesh, Best nursing institutes in BD, Nursing education Rangpur, Diploma in Nursing Bangladesh, BNMC approved nursing college, নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স',
+    title = 'ডা: মো. জহুরুল হক নার্সিং কলেজ (JHNC) - Best Nursing Institute in Rangpur, Bangladesh',
+    description = 'জেএইচএনসি - Dr. Md. Jahurul Haque Nursing College in Rangpur. Offering 3-year Diploma in Nursing Science and Midwifery. BNMC approved nursing education with experienced faculty and modern facilities.',
+    keywords = 'জেএইচএনসি, Northern Nursing Institute, Nursing colleges in Bangladesh, Best nursing institutes in BD, Nursing education Rangpur, Diploma in Nursing Bangladesh, BNMC approved nursing college, ডা: মো. জহুরুল হক নার্সিং কলেজ',
     canonicalUrl = '',
     ogType = 'website',
-    ogImage = '/images/nins-logo-footer.png',
+    ogImage = '/images/jhnc-logo-footer.png',
     structuredData = null,
     noindex = false,
 }) => {
-    const siteUrl = 'https://www.ninsbd.com';
+    const siteUrl = 'https://www.jhncbd.com';
     const fullCanonicalUrl = canonicalUrl || siteUrl;
     const fullOgImage = ogImage.startsWith('http') ? ogImage : `${siteUrl}${ogImage}`;
 
@@ -22,10 +22,10 @@ const SEO = ({
     const defaultStructuredData = {
         '@context': 'https://schema.org',
         '@type': 'EducationalOrganization',
-        'name': 'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (NINS)',
-        'alternateName': 'Northern Institute of Nursing Science',
+        'name': 'ডা: মো. জহুরুল হক নার্সিং কলেজ (JHNC)',
+        'alternateName': 'Dr. Md. Jahurul Haque Nursing College',
         'url': siteUrl,
-        'logo': `${siteUrl}/images/nins-logo-footer.png`,
+        'logo': `${siteUrl}/images/jhnc-logo-footer.png`,
         'description': description,
         'address': {
             '@type': 'PostalAddress',
@@ -61,7 +61,7 @@ const SEO = ({
             <title>{title}</title>
             <meta name="description" content={description} />
             <meta name="keywords" content={keywords} />
-            <meta name="author" content="Northern Institute of Nursing Science" />
+            <meta name="author" content="Dr. Md. Jahurul Haque Nursing College" />
             <link rel="canonical" href={fullCanonicalUrl} />
 
             {/* Robots Meta */}
@@ -84,7 +84,7 @@ const SEO = ({
             <meta property="og:image" content={fullOgImage} />
             <meta property="og:image:width" content="1200" />
             <meta property="og:image:height" content="630" />
-            <meta property="og:site_name" content="এনআইএনএস" />
+            <meta property="og:site_name" content="জেএইচএনসি" />
             <meta property="og:locale" content="bn_BD" />
             <meta property="og:locale:alternate" content="en_US" />
 

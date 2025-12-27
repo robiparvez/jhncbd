@@ -1,9 +1,8 @@
-import React from 'react';
 import { Col, Container, Image, Row } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
 import { Link } from 'react-router-dom';
-import { INSTITUTE_NAME } from '../../Data';
-import college from '../../images/logos/nins-logo-footer.png';
+import { INSTITUTE_NAME_BN, INSTITUTE_NAME_BN_NEW_LINE } from '../../Data';
+import college from '../../images/logos/jhnc-logo-footer.png';
 import { EMAIL_ADDRESS, FACEBOOK_LINK, LOCATION, PHONE_NUMBER } from './Data';
 import './footer.css';
 import MapContainer from './MapContainer';
@@ -21,7 +20,7 @@ export default function Footer() {
                             <Image src={college} fluid />
                         </Link>
                         <LinkContainer to='/'>
-                            <h4 className='mt-3 text-center new-line'>{INSTITUTE_NAME}</h4>
+                            <h4 className='mt-3 text-center new-line'>{INSTITUTE_NAME_BN_NEW_LINE}</h4>
                         </LinkContainer>
                     </Col>
                     <Col sm={6} md={6} data-aos='fade-left' className='d-flex mt-3 justify-content-start  flex-column flex-wrap'>
@@ -68,7 +67,7 @@ export default function Footer() {
                 <div className='container mb-2'>
                     <div className='row justify-content-center'>
                         <div className='col-6 text-left'>
-                            <p className='copyright-text'>&copy; Copyright &amp; All Rights Reserved by "নর্দান ইন্‌স্টিটিউট অব নার্সিং সায়েন্স"</p>
+                            <p className='copyright-text'>&copy; Copyright &amp; All Rights Reserved by "{INSTITUTE_NAME_BN}"</p>
                         </div>
                         <div className='col-6 text-right'>
                             <p className='copyright-text'>

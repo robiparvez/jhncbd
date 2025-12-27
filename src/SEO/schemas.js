@@ -2,15 +2,17 @@
  * Structured data schema generators for different page types
  */
 
+import { INSTITUTE_NAME_BN_NEW_LINE } from '../components/user/Data';
+
 export const organizationSchema = {
     '@context': 'https://schema.org',
     '@type': 'EducationalOrganization',
-    'name': 'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (NINS)',
-    'alternateName': 'Northern Institute of Nursing Science',
+    'name': {INSTITUTE_NAME_BN_NEW_LINE},
+    'alternateName': 'Dr. Md. Jahurul Haque Nursing College',
     'url': 'https://www.ninsbd.com',
-    'logo': 'https://www.ninsbd.com/images/nins-logo-footer.png',
+    'logo': 'https://www.ninsbd.com/images/jhnc-logo-footer.png',
     'image': 'https://www.ninsbd.com/images/nins-cover-original.png',
-    'description': 'এনআইএনএস - Northern Institute of Nursing Science in Rangpur. Offering 3-year Diploma in Nursing Science and Midwifery approved by Bangladesh Nursing and Midwifery Council.',
+    'description': 'জেএইচএনসি - Dr. Md. Jahurul Haque Nursing College in Rangpur. Offering 3-year Diploma in Nursing Science and Midwifery approved by Bangladesh Nursing and Midwifery Council.',
     'address': {
         '@type': 'PostalAddress',
         'streetAddress': 'Rangpur',
@@ -48,7 +50,7 @@ export const courseSchema = {
     'description': '3-year professional nursing diploma program approved by Bangladesh Nursing and Midwifery Council (BNMC)',
     'provider': {
         '@type': 'EducationalOrganization',
-        'name': 'Northern Institute of Nursing Science (NINS)',
+        'name': 'Dr. Md. Jahurul Haque Nursing College (NINS)',
         'url': 'https://www.ninsbd.com'
     },
     'educationalCredentialAwarded': 'Diploma in Nursing Science and Midwifery',
@@ -65,7 +67,7 @@ export const courseSchema = {
 export const localBusinessSchema = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
-    'name': 'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (NINS)',
+    'name': 'ডা: মো. জহুরুল হক নার্সিং কলেজ (JHNC)',
     'image': 'https://www.ninsbd.com/images/nins-cover-original.png',
     '@id': 'https://www.ninsbd.com',
     'url': 'https://www.ninsbd.com',
@@ -134,7 +136,7 @@ export const personSchema = (person) => ({
     'jobTitle': person.position,
     'worksFor': {
         '@type': 'EducationalOrganization',
-        'name': 'Northern Institute of Nursing Science (NINS)'
+        'name': 'Dr. Md. Jahurul Haque Nursing College (NINS)'
     },
     'image': person.image,
     'description': person.qualification
@@ -143,7 +145,7 @@ export const personSchema = (person) => ({
 export const websiteSchema = {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
-    'name': 'NINS - Northern Institute of Nursing Science',
+    'name': 'NINS - Dr. Md. Jahurul Haque Nursing College',
     'url': 'https://www.ninsbd.com',
     'potentialAction': {
         '@type': 'SearchAction',

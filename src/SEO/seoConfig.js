@@ -5,24 +5,24 @@
 const siteUrl = 'https://www.ninsbd.com';
 
 export const seoConfig = {
-    defaultTitle: 'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (এনআইএনএস) - Best Nursing Institute in Rangpur, Bangladesh',
-    titleTemplate: '%s | এনআইএনএস',
-    description: 'এনআইএনএস - Northern Institute of Nursing Science in Rangpur. Offering 3-year Diploma in Nursing Science and Midwifery. BNMC approved nursing education with experienced faculty and modern facilities.',
+    defaultTitle: 'ডা: মো. জহুরুল হক নার্সিং কলেজ (JHNC) - Best Nursing Institute in Rangpur, Bangladesh',
+    titleTemplate: '%s | জেএইচএনসি',
+    description: 'জেএইচএনসি - Dr. Md. Jahurul Haque Nursing College in Rangpur. Offering 3-year Diploma in Nursing Science and Midwifery. BNMC approved nursing education with experienced faculty and modern facilities.',
     siteUrl,
-    siteName: 'এনআইএনএস',
+    siteName: 'জেএইচএনসি',
     twitterHandle: '@ninsbd',
     facebookAppId: '',
 };
 
 export const pageSEO = {
     home: {
-        title: 'এনআইএনএস',
-        description: 'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স (এনআইএনএস) - Top nursing college in Rangpur, Bangladesh. 3-year Diploma in Nursing Science and Midwifery approved by BNMC. Experienced faculty, modern facilities, and excellent placement.',
-        keywords: 'NINS, Northern Nursing Institute, Best nursing college Rangpur, Nursing education Bangladesh, BNMC approved nursing, Diploma in Nursing Bangladesh, নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স',
+        title: 'জেএইচএনসি',
+        description: 'ডা: মো. জহুরুল হক নার্সিং কলেজ (জেএইচএনসি) - Top nursing college in Rangpur, Bangladesh. 3-year Diploma in Nursing Science and Midwifery approved by BNMC. Experienced faculty, modern facilities, and excellent placement.',
+        keywords: 'NINS, Northern Nursing Institute, Best nursing college Rangpur, Nursing education Bangladesh, BNMC approved nursing, Diploma in Nursing Bangladesh, ডা: মো. জহুরুল হক নার্সিং কলেজ',
         canonicalUrl: `${siteUrl}/`,
     },
     about: {
-        title: 'About NINS - Northern Institute of Nursing Science Rangpur Bangladesh',
+        title: 'About NINS - Dr. Md. Jahurul Haque Nursing College Rangpur Bangladesh',
         description: 'Learn about NINS - A premier nursing education institution in Rangpur with 9+ years of excellence. BNMC approved 3-year Diploma in Nursing Science and Midwifery program with modern infrastructure.',
         keywords: 'About NINS, Northern Nursing Institute Rangpur, Nursing college history, BNMC approved institute, Nursing education excellence',
         canonicalUrl: `${siteUrl}/about`,
@@ -41,7 +41,7 @@ export const pageSEO = {
     },
     notice: {
         title: 'Latest Notices & Announcements - NINS',
-        description: 'Stay updated with the latest notices, announcements, and admission updates from Northern Institute of Nursing Science (NINS) Rangpur, Bangladesh.',
+        description: 'Stay updated with the latest notices, announcements, and admission updates from Dr. Md. Jahurul Haque Nursing College (NINS) Rangpur, Bangladesh.',
         keywords: 'NINS notices, Nursing admission notice, College announcements, Nursing exam schedule, NINS updates Bangladesh',
         canonicalUrl: `${siteUrl}/notice`,
     },
@@ -53,7 +53,7 @@ export const pageSEO = {
     },
     director: {
         title: 'Board of Directors - Leadership at NINS',
-        description: 'Meet the governing body and board of directors at Northern Institute of Nursing Science (NINS). Experienced leadership committed to excellence in nursing education.',
+        description: 'Meet the governing body and board of directors at Dr. Md. Jahurul Haque Nursing College (NINS). Experienced leadership committed to excellence in nursing education.',
         keywords: 'NINS directors, Governing body, College management, Leadership team, NINS administration',
         canonicalUrl: `${siteUrl}/director`,
     },
@@ -65,7 +65,7 @@ export const pageSEO = {
     },
     contact: {
         title: 'Contact NINS - Admission Enquiry & Campus Location in Rangpur',
-        description: 'Contact Northern Institute of Nursing Science (NINS) in Rangpur for admission enquiries, course information, and campus visits. Get in touch with our admission office today.',
+        description: 'Contact Dr. Md. Jahurul Haque Nursing College (NINS) in Rangpur for admission enquiries, course information, and campus visits. Get in touch with our admission office today.',
         keywords: 'Contact NINS, Nursing admission enquiry, NINS Rangpur location, Nursing college contact, Admission helpline Bangladesh',
         canonicalUrl: `${siteUrl}/contact`,
     },
@@ -74,12 +74,12 @@ export const pageSEO = {
 // Keyword variations for content optimization
 export const targetKeywords = {
     primary: [
-        'এনআইএনএস',
+        'জেএইচএনসি',
         'NINS',
         'Northern Nursing Institute',
         'Nursing colleges in Bangladesh',
         'Best nursing institutes in BD',
-        'নর্দান ইন্সটিটিউট অব নার্সিং সায়েন্স',
+        'ডা: মো. জহুরুল হক নার্সিং কলেজ',
     ],
     secondary: [
         'Nursing education Rangpur',

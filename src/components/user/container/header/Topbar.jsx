@@ -1,8 +1,7 @@
-import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { LinkContainer } from 'react-router-bootstrap';
-import { INSTITUTE_NAME } from '../../Data';
-import logo from '../../images/logos/nins-logo-topbar.png';
+import { INSTITUTE_NAME_BN_NEW_LINE } from '../../Data';
+import logo from '../../images/logos/jhnc-logo-topbar.png';
 import './header.css';
 
 export default function Topbar() {
@@ -17,7 +16,7 @@ export default function Topbar() {
 
                 <Navbar.Brand>
                     <LinkContainer to='/'>
-                        <h6 className='new-line'>{INSTITUTE_NAME}</h6>
+                        <h6 className='new-line'>{INSTITUTE_NAME_BN_NEW_LINE}</h6>
                     </LinkContainer>
                 </Navbar.Brand>
 
